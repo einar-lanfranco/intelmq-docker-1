@@ -53,3 +53,8 @@ docker-compose exec -f docker-compose-dev.yml  intelmq sudo bash /opt/install_re
 When you do this:
 
 * Yours bots REQUERIMENTS.txt and the bots will be installed
+
+
+### KOWN issues
+
+Some bots originals from intelmq need you to install manually the requeriments, for example, for Output Easticsearxch you neet to **sudo pip3 install elasticsearch** in the running container.
